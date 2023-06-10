@@ -1,5 +1,18 @@
-.container.rojo{
-    background-color: aqua;
-    display: flex;
-    flex-direction: column;
+*{
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+.rojo{
+    background-color: red;
+}
+img{
+    width: 200px;
+    height: 350px;
+    border-radius: 25px;
 }
