@@ -8,11 +8,41 @@ body{
     background-color: black;
     color: white;
 }
-.rojo{
-    background-color: red;
+.titulo{
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: center;
 }
 img{
     width: 200px;
     height: 350px;
-    border-radius: 25px;
+    border-radius: 35px;
+    margin: 15px auto;
+    display: block;
+}
+
+.datospersonales{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.linkendin{
+    background-image: url(https://play-lh.googleusercontent.com/kMofEFLjobZy_bCuaiDogzBcUT-dz3BBbOrIEjJ-hqOabjK8ieuevGe6wlTD15QzOqw);
+    background-size: contain;
+    text-indent: -9999px;
+    width: 35px;
+    height: 35px;
+    display: block;
+}
+.github{
+    background-image: url(https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png);
+    background-size: contain;
+    text-indent: -9999px;
+    width: 35px;
+    height: 35px;
+    display: block;
+}
+
+.redes li {
+    display: inline-block;
 }
